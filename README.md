@@ -1,15 +1,15 @@
-Configuration PowerShell 7 + Neovim
+# Configuration PowerShell 7 + Neovim
 🎯 Installation rapide
 powershell# 1. Cloner le repo
 ```
 git clone https://github.com/[votre-user]/[votre-repo].git $env:USERPROFILE\.config
 ```
-# 2. Créer les liens symboliques
+## 2. Créer les liens symboliques
 ```
 cmd /c mklink /D "$env:LOCALAPPDATA\nvim" "$env:USERPROFILE\.config\nvim"
 cmd /c mklink "$env:USERPROFILE\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" "$env:USERPROFILE\.config\powershell\Microsoft.PowerShell_profile.ps1"
 ```
-# 3. Installer les plugins Neovim
+## 3. Installer les plugins Neovim
 nvim +PackerSync +qall
 📦 Prérequis à installer manuellement
 Obligatoires
@@ -32,7 +32,7 @@ powershell# PowerShell LSP
 ```
 Install-Module -Name PowerShellEditorServices
 ```
-# Lua LSP
+## Lua LSP
 ```
 winget install sumneko.lua-language-server
 ```
@@ -78,3 +78,5 @@ Plugins Neovim ne se chargent pas → Vérifier le lien symbolique nvim
 Profil PowerShell ignoré → Vérifier $PROFILE pointe vers le bon fichier
 LSP ne fonctionne pas → Installer les language servers manuellement
 Thème manquant → Installer Oh-My-Posh : winget install JanDeDobbeleer.OhMyPosh
+
+Licence: MIT
