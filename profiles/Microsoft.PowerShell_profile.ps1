@@ -1,0 +1,1 @@
+oh-my-posh init pwsh --config "$HOME\Themes\OhMyPosh\kali.omp.json" | Invoke-Expression
