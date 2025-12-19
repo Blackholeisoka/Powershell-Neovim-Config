@@ -1,7 +1,8 @@
+# Configuration PowerShell 7 + Neovim
+
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/021f4e50-43b4-415f-8a08-6d1ca93496de" />
 Theme / Font : lunaperche / OxProto Nerd Font (normal)
 
-# Configuration PowerShell 7 + Neovim
 🎯 Installation rapide
 
 powershell# 1. Cloner le repo - ```git clone https://github.com/[votre-user]/[votre-repo].git $env:USERPROFILE\.config```
